@@ -1,5 +1,7 @@
 function create_LEUP_dataset_file_structure()
 
+mkdir ../Datasets
+
 % For beta > 0
 mkdir ../Datasets/LEUP/datasets/square/r=1 
 mkdir ../Datasets/LEUP/datasets/square/r=2
