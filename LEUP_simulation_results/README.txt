@@ -1,5 +1,5 @@
 README
-This is the complete set of codes necessary to run simulations of the LEUP system on a square lattice and then perform various analyses as outlined in (Barua et al. 2024)
+This is the complete set of codes necessary to run simulations of the LEUP system on a square lattice and then perform various analyses as outlined in (Barua, Pujar et al. 2024)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 (1) How to generate LEUP datasets
