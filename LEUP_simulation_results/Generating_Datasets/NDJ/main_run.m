@@ -1,5 +1,8 @@
 % this will generate all the Notch Delta datasets required for comparison with LEUP simulations 
 
+% creating file structure to store datasets
+mkdir ../Datasets/NDJ
+
 % for lateral induction
 parfor seed=1:5
 periodic_square_NDJ(1400,1300,seed);
