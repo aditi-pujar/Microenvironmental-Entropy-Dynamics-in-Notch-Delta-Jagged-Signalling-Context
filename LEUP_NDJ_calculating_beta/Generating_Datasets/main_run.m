@@ -1,3 +1,6 @@
+% creating file structure to store datasets
+mkdir ../Datasets
+
 D0val = 500:100:2000;
 J0val = 200:100:1300;
 
