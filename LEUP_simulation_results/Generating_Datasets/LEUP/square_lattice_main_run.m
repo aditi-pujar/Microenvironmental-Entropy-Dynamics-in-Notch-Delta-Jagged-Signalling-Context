@@ -1,7 +1,9 @@
-%Phase diagrams
-tic
-% running this will generate all the datasets required for analysing LEUP simulations
+% running this will generate all the LEUP datasets required for analysing LEUP simulations
 
+% creating file structure to store datasets
+create_LEUP_dataset_file_structure()
+
+% ---------------------------------------------------------------------------------------------
 R=[1,2,3,4,5,6,7,8,9,10];
 BETA=[0.1,0.5,0.9,1,5,7,10,15,20,25,50,75,100,250,500,1000];
 
@@ -17,7 +19,6 @@ end
 end
 
 
-tic
 % Different Neighborhoods - extended Moore (square_fn) and extended Von Neumann (diag_fn)
 for i=1:length(R)
 for j=1:length(BETA)
@@ -28,4 +29,3 @@ for j=1:length(BETA)
     end
 end
 end
-toc
