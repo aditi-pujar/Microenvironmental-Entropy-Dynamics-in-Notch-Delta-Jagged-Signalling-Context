@@ -30,7 +30,7 @@ D0=D0_value;
 J0=J0_value;
 %% Lattice and time settings: 
 nn=4; %% number of neighbours
-NN=24;
+NN=25;
 TMAX=50; %% total time
 dt=0.01; % time step:
 NoI=TMAX/dt; %number of iterations
